@@ -34,12 +34,7 @@ Project Website: https://www.glfw.org/
 
 *TODO*
 
-<!---
-Install nuget command line tool.
-
-Run: `make_nuget.ps1 . 5`
-
-The first argument is this project directory.
-
-The second argument is the build number, which is to be increased each time a new package for the same version is published.
--->
+[//]: # (Install nuget command line tool.)
+[//]: # (Run: `make_nuget.ps1 . 5`)
+[//]: # ( The first argument is this project directory.)
+[//]: # ( The second argument is the build number, which is to be increased each time a new package for the same version is published.)
