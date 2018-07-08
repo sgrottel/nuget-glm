@@ -30,7 +30,7 @@ Project Website: https://www.glfw.org/
 
 * Download the most current version of glm. E.g., download the zip file.
 * Extract the contained directories `doc` and `glm` into this directory.
-** Note: only the `glm` and `doc/api` directory will be part of the package.
+    * Note: only the `glm` and `doc/api` directory will be part of the package.
 
 
 *TODO*
