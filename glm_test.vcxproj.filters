@@ -18,6 +18,15 @@
     <ClCompile Include="glm_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="testTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testDataAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testTransformCreation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

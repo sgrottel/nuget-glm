@@ -152,6 +152,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="glm_test.cpp" />
+    <ClCompile Include="testDataAccess.cpp" />
+    <ClCompile Include="testTransformCreation.cpp" />
+    <ClCompile Include="testTypes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -160,6 +163,7 @@
   <ImportGroup Label="ExtensionTargets">
     <Import Project="packages\googletest.redist.1.8.2\build\native\googletest.redist.targets" Condition="Exists('packages\googletest.redist.1.8.2\build\native\googletest.redist.targets')" />
     <Import Project="packages\googletest.1.8.2\build\native\googletest.targets" Condition="Exists('packages\googletest.1.8.2\build\native\googletest.targets')" />
+    <Import Project="packages\glm.0.9.9\build\native\glm.targets" Condition="Exists('packages\glm.0.9.9\build\native\glm.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -167,5 +171,6 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\googletest.redist.1.8.2\build\native\googletest.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\googletest.redist.1.8.2\build\native\googletest.redist.targets'))" />
     <Error Condition="!Exists('packages\googletest.1.8.2\build\native\googletest.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\googletest.1.8.2\build\native\googletest.targets'))" />
+    <Error Condition="!Exists('packages\glm.0.9.9\build\native\glm.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glm.0.9.9\build\native\glm.targets'))" />
   </Target>
 </Project>
