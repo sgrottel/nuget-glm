@@ -7,6 +7,7 @@ This repository contains all files and information to create a NuGet package out
 For problems with the NuGet package contact SGrottel: 
 
 * https://bitbucket.org/sgrottel_nuget/glm
+* http://go.sgrottel.de/nuget-project/glm
 * https://www.sgrottel.de
 * http://go.sgrottel.de/nuget/glm
 
@@ -24,22 +25,19 @@ This project isn't limited to GLSL features. An extension system, based on the G
 
 The source code and the documentation, including this manual, are licensed under [the Happy Bunny License (Modified MIT) or the MIT License](https://glm.g-truc.net/copying.txt).
 
-Project Website: https://www.glfw.org/
+Project Website: https://glm.g-truc.net
 
 ## How do I get set up? ##
+
+### Update Source ###
 
 * Download the most current version of glm. E.g., download the zip file.
 * Extract the contained directories `doc` and `glm` into this directory.
     * Note: only the `glm` and `doc/api` directory will be part of the package.
 
+### Building the NuGet Package ###
 
-*TODO*
-
-## Building the NuGet Package ##
-
-*TODO*
-
-[//]: # (Install nuget command line tool.)
-[//]: # (Run: `make_nuget.ps1 . 5`)
-[//]: # ( The first argument is this project directory.)
-[//]: # ( The second argument is the build number, which is to be increased each time a new package for the same version is published.)
+* Install nuget command line tool.
+* Run: `make_nuget.ps1 5`
+* The first argument is this project directory.
+* The second argument is the build number, which is to be increased each time a new package for the same version is published.
