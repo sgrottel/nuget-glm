@@ -6,6 +6,7 @@ This repository contains all files and information to create a NuGet package out
 
 For problems with the NuGet package contact SGrottel: 
 
+* https://www.nuget.org/packages/glm/
 * https://bitbucket.org/sgrottel_nuget/glm
 * http://go.sgrottel.de/nuget-project/glm
 * https://www.sgrottel.de
