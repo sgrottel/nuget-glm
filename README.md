@@ -8,9 +8,9 @@ For problems with the NuGet package contact SGrottel:
 
 * https://www.nuget.org/packages/glm/
 * https://bitbucket.org/sgrottel_nuget/glm
-* http://go.sgrottel.de/nuget-project/glm
+* https://go.grottel.net/nuget-project/glm
 * https://www.sgrottel.de
-* http://go.sgrottel.de/nuget/glm
+* https://go.grottel.net/nuget/glm
 
 For problems with the library itself contact the authors:
 
