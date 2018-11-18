@@ -10,7 +10,7 @@
         <authors>GLM contributors</authors>
         <owners>GLM</owners>
         <licenseUrl>https://glm.g-truc.net/copying.txt</licenseUrl>
-        <projectUrl>http://go.grottel.net/nuget-project/glm</projectUrl>
+        <projectUrl>https://go.grottel.net/nuget-project/glm</projectUrl>
         <iconUrl>https://glm.g-truc.net/common/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specifications.
@@ -34,6 +34,7 @@ Note: The last number of the version number differs in that respect, that the of
 - glm 0.9.9.1 => package 0.9.9.100 (first package)
 - glm 0.9.9.1 => package 0.9.9.101 (same content, but package updated, e.g. build scripts)
 - glm 0.9.9.2 => package 0.9.9.200
+- glm 0.9.9.3 => package 0.9.9.300
 </description>
         <summary>OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specification.</summary>
         <copyright>Copyright 2015-2018</copyright>
