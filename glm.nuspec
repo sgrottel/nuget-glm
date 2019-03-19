@@ -9,7 +9,7 @@
         <title>GLM</title>
         <authors>GLM contributors</authors>
         <owners>GLM</owners>
-        <licenseUrl>https://glm.g-truc.net/copying.txt</licenseUrl>
+        <license type="file">license\copying.txt</license>
         <projectUrl>https://go.grottel.net/nuget-project/glm</projectUrl>
         <iconUrl>https://glm.g-truc.net/common/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -45,6 +45,7 @@ Note: The last number of the version number differs in that respect, that the of
     <files>
         <!-- doc -->
         <file src="doc\api\**" target="build\native\doc\api" />
+        <file src="license\copying.txt" target="license" />
         <!-- includes -->
         <file src="glm\**" target="build\native\include\glm" />
         <!-- VS files -->
