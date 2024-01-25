@@ -1,13 +1,13 @@
 # OpenGL Mathematics (GLM) NuGet #
 
-![GLM Icon](https://bitbucket.org/sgrottel_nuget/glm/raw/556498f4caa1806a663926db247e032f1828f734/logo.png)
+![GLM Icon](./logo.png)
 
-This repository contains all files and information to create a NuGet package out of the officiel release of GLM.
+This repository contains all files and information to create a NuGet package out of the official GLM release.
 
 For problems with the NuGet package contact SGrottel: 
 
 * https://www.nuget.org/packages/glm/
-* https://bitbucket.org/sgrottel_nuget/glm
+* https://github.com/sgrottel/nuget-glm
 * https://go.grottel.net/nuget-project/glm
 * https://www.sgrottel.de
 * https://go.grottel.net/nuget/glm
@@ -29,6 +29,9 @@ The source code and the documentation, including this manual, are licensed under
 Project Website: https://glm.g-truc.net
 
 ## How do I get set up? ##
+
+* Update the glm submodule to the newest release tag commit
+* TODO
 
 ### Update Source ###
 
