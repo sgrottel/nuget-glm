@@ -31,17 +31,6 @@ Project Website: https://glm.g-truc.net
 ## How do I get set up? ##
 
 * Update the glm submodule to the newest release tag commit
-* TODO
-
-### Update Source ###
-
-* Download the most current version of glm. E.g., download the zip file.
-* Extract the contained directories `doc` and `glm` into this directory.
-    * Note: only the `glm` and `doc/api` directory will be part of the package.
-
-### Building the NuGet Package ###
-
 * Install nuget command line tool.
 * Run: `make_nuget.ps1 5`
-* The first argument is this project directory.
-* The second argument is the build number, which is to be increased each time a new package for the same version is published.
+	* You can specify a build number (fourth number of the version number) as argument
