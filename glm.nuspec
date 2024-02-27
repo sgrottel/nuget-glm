@@ -43,7 +43,7 @@ GLM is written in C++98 but can take advantage of C++11 when supported by the co
 		<!-- doc -->
 		<file src="glm\doc\api\**" target="build\native\doc\api" />
 		<file src="glm\copying.txt" target="license" />
-		<file src="glm\readme.md" target="readme.md" />
+		<file src="nuget_readme.md" target="readme.md" />
 		<file src="glm\manual.md" target="build\native\doc\manual.md" />
 		<file src="logo.png" target="logo.png" />
 

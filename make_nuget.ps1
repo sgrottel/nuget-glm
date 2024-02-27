@@ -1,4 +1,7 @@
-param([int]$verBuild = 0)
+param(
+	[int]$verBuild = 0,
+	[string]$verExtra = ''
+)
 $ErrorActionPreference = "Stop"
 
 $header = gc([System.IO.Path]::Combine($PSScriptRoot, ".\glm\glm\detail\setup.hpp")) | Out-String
@@ -10,7 +13,7 @@ else { throw "Failed to parse minor version number from header." }
 if ($header -match '(?m)^#define\s+GLM_VERSION_PATCH\s+(\d+)\s*$') { $verPatch = $Matches[1] }
 else { throw "Failed to parse patch version number from header." }
 
-$version = "$verMajor.$verMinor.$verPatch.$verBuild"
+$version = "$verMajor.$verMinor.$verPatch.$verBuild$verExtra"
 
 $nuspec = [System.IO.Path]::Combine($PSScriptRoot, ".\glm.nuspec")
 
