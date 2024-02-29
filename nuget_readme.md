@@ -1,4 +1,4 @@
-# ![GLM](./logo.png)
+# ![GLM](https://raw.githubusercontent.com/sgrottel/nuget-glm/main/logo.png)
 [OpenGL Mathematics (GLM)](https://glm.g-truc.net) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specifications.
 
 GLM provides classes and functions designed and implemented with the same naming conventions and functionalities than GLSL so that anyone who knows GLSL, can use GLM as well in C++.
