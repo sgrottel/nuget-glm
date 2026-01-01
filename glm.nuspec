@@ -31,7 +31,7 @@ GLM is written in C++98 but can take advantage of C++11 when supported by the co
 - Any C++11 compiler
 </description>
 		<summary>OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specification.</summary>
-		<copyright>Copyright 2015-2024</copyright>
+		<copyright>Copyright 2015-2025</copyright>
 		<tags>GLM OpenGL Mathematics native nativepackage</tags>
 		<releaseNotes>$releaseNotes$</releaseNotes>
 		<readme>readme.md</readme>
